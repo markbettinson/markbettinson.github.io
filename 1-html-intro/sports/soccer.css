@@ -1,0 +1,37 @@
+
+#heading {
+    color: rgb(113, 162, 168);
+    background-color: sienna;
+}
+
+.fonts {
+    font-size: 50px;
+    font-weight: normal;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "Arial", sans-serif;
+}
+span { 
+    border: black solid 5px;
+    border-radius: 500px;
+    padding: 5px 10px 5px 5px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+.button {
+    color: black;
+    background-color: grey;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all .5s;
+}
+
+.button:hover {
+    background-color: ivory;
+    font-weight: bold;
+}
